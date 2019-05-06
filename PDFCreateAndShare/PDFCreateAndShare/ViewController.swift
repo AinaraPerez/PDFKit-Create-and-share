@@ -31,12 +31,8 @@ class ViewController: UIViewController, UIDocumentInteractionControllerDelegate 
         let pdfTitle = "Swift PDF Test"
         let pdfSubject = "Your text here, press anywhere to go back"
         let pdfMetadata = [
-            // The name of the application creating the PDF.
-            kCGPDFContextCreator: "Your iOS App",
-            // Creator of the PDF
-            kCGPDFContextAuthor: "Testing PDFs",
-            // Title of the PDF.
-            kCGPDFContextTitle: "Lorem Ipsum"
+            // The name of the application.
+            kCGPDFContextCreator: "Your iOS App"
             // etc.
         ]
         
