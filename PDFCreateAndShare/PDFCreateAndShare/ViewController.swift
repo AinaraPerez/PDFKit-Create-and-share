@@ -46,7 +46,7 @@ class ViewController: UIViewController, UIDocumentInteractionControllerDelegate 
         // Creates a new page in the current PDF context.
         UIGraphicsBeginPDFPage()
         
-        // Default size of the page is 612x72.
+        // PDF default: width 612.0, height 792.0
         let pageSize = UIGraphicsGetPDFContextBounds().size
         // Custom fonts
         let fontTitle = UIFont.preferredFont(forTextStyle: .largeTitle)
